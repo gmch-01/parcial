@@ -3,7 +3,9 @@ public class pc {
     * @paras args
      */
     public static void main(String [] args ) {
-        // TADO Autogerenated method stab 
+        // TADO Autogerenated method stab
+        
+        Scanner leer = new Scanner (System.in);
 
         int matriz [][] = new int [5][5];
 
