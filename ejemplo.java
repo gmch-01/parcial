@@ -6,18 +6,21 @@ public class pc {
         // TADO Autogerenated method stab
         
         Scanner leer = new Scanner (System.in);
-        int ingresarNumeroX;
-        int ingresarNumeroY;
+        int NumeroX;
+        int NumeroY;
 
-        int matriz [][] = new int [5][5];
+        NumeroX= leer.nextInt();
+        NumeroY= leer.nextInt();
 
-        for (int i = 1; i=5; i++) {
+        int matriz [][] = new int [NumeroX][NumeroY];
+
+        for (int i = 0; i<NumeroX; i++) {
             System.out.println();
-            for (int j = 1; j<5; j++){
+            for (int j = 0; j<NumeroY; j++){
 
                 matriz[i][j] = j*2;
 
-                System.out.print(matriz [i][j]+ " ")
+                System.out.print(matriz [i][j]+ " ");
             }
         }
 
