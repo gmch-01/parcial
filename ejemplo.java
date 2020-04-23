@@ -6,6 +6,7 @@ public class pc {
         // TADO Autogerenated method stab
         
         Scanner leer = new Scanner (System.in);
+        int ingresarNumero;
 
         int matriz [][] = new int [5][5];
 
